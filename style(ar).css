@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Readex Pro";
+}
+header{ 
+  width: 100%;
+  height: 60px;
+  display: flex;
+  font-size: 5vh;
+  position: fixed;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo{
+  pointer-events: none;
+}
+nav a{
+  margin-right: 5vh;
+  font-size: 5vh;
+}
+nav a:hover{
+  color: #4d983b;
+  padding: 10px;
+  font-size: 6vh;
+}
+section{
+  height: 100vh;
+  font-size: 6vh;
+  padding-right: 50px;
+  padding-top: 25vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#Home{
+  background-image: url(sushobhan-badhai-LrPKL7jOldI-unsplash.jpg);
+}
+#Home h1{
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+  animation-name: main;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes main{
+  0%{
+    color: #9deb69;
+  }
+  25%{
+    color: #7ebc54;
+  }
+  50%{
+    color: #659943;
+  }
+  75%{
+    color: #517b35;
+  }
+  100%{
+    color: #45692e;
+  }
+}
+#Home h3{
+}
+#Home h4{
+  padding-bottom: 30px;
+}
+.Start{
+  background-color: #659943;
+}
+.Why{
+  border: 1px solid white;
+}
+#plant{
+  background-image: url(noah-buscher-x8ZStukS2PM-unsplash.jpg);
+}
+ul li{
+  font-size: 30px;
+  margin: 10px 55px;
+}
+ul li:hover{
+  width: 90vh;
+  margin: 20px 0px;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff81;
+}
+#plant h3{
+  padding-bottom: 30px;
+}
+h3 span{
+  animation-name: main;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+#Plants{
+  background-image: url(josefin-WS5yjFjycNY-unsplash.jpg);
+  padding-top: 10vh;
+}
+#Plants h4{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.container{
+  display: flex;
+  flex-direction: column column column;
+}
+.parent{
+  margin: auto;
+  display: grid;
+  justify-content: space-around;
+}
+.child{
+  width: 80vh;
+  margin: 10px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  background-color: #ffffff81;
+}
+.parent div span{
+  display: none;
+}
+.child:hover span{
+  display: block;
+}
+#Uses{
+  background-image: url(rumman-amin-REjWKplfLiU-unsplash.jpg);
+  background-position: bottom;
+}
+#Uses h4 span{
+  animation-name: main;
+  animation-duration: 2s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+#Uses h4{
+  padding-bottom: 20px;
+}
+#Our_goal{
+  background-image: url(daiga-ellaby-ClWvcrkBhMY-unsplash.jpg);
+  background-position: bottom;
+}
+#Our_goal h1{
+  margin: 15px 0px;
+  animation-name: main-purple;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes main-purple {
+  0%{
+    color: #9769eb;
+  }
+  25%{
+    color: #8554bc;
+  }
+  50%{
+    color: #6e4399;
+  }
+  75%{
+    color: #57357b;
+  }
+  100%{
+    color: #432e69;
+  }
+}
+#Our_goal h6{
+  margin: 30px 0px;
+}
+#Our_goal .How{
+  background-color: #745A7A;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  pointer-events: none;
+}
+section a{
+  padding-right: 20px;
+  padding-right: 20px;
+  padding: 5px 20px;
+}
+a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 1dvi;
+  font-weight: 600;
+}
